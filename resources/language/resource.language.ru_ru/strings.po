@@ -23,271 +23,271 @@ msgstr "ExtendedInfo Script"
 
 msgctxt "Addon Description"
 msgid "This script offers various possibilities to display online content inside skins. Used services are themoviedb.org, theaudiodb.org, Trakt.TV and a lot more. Can also be used for importing / exporting skin settings, adding additional fanart stuff to library and cooking eggs. Needs skin support for most functions."
-msgstr "Этот скрипт предлагает различные возможности для отображения онлайн-контента внутри обложки, а также полный браузер MovieDB, включая информационные диалоги для различных типов медиа. Используемыми сервисами являются themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com и многое другое. Требует реализации обложки для многих функций."
+msgstr "Р­С‚РѕС‚ СЃРєСЂРёРїС‚ РїСЂРµРґР»Р°РіР°РµС‚ СЂР°Р·Р»РёС‡РЅС‹Рµ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РѕРЅР»Р°Р№РЅ-РєРѕРЅС‚РµРЅС‚Р° РІРЅСѓС‚СЂРё РѕР±Р»РѕР¶РєРё, Р° С‚Р°РєР¶Рµ РїРѕР»РЅС‹Р№ Р±СЂР°СѓР·РµСЂ MovieDB, РІРєР»СЋС‡Р°СЏ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Рµ РґРёР°Р»РѕРіРё РґР»СЏ СЂР°Р·Р»РёС‡РЅС‹С… С‚РёРїРѕРІ РјРµРґРёР°. РСЃРїРѕР»СЊР·СѓРµРјС‹РјРё СЃРµСЂРІРёСЃР°РјРё СЏРІР»СЏСЋС‚СЃСЏ themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ. РўСЂРµР±СѓРµС‚ СЂРµР°Р»РёР·Р°С†РёРё РѕР±Р»РѕР¶РєРё РґР»СЏ РјРЅРѕРіРёС… С„СѓРЅРєС†РёР№."
 
 msgctxt "#32000"
 msgid "Million"
-msgstr "Миллион"
+msgstr "РњРёР»Р»РёРѕРЅ"
 
 msgctxt "#32001"
 msgid "Billion"
-msgstr "Миллиард"
+msgstr "РњРёР»Р»РёР°СЂРґ"
 
 msgctxt "#32002"
 msgid "Trillion"
-msgstr "Триллион"
+msgstr "РўСЂРёР»Р»РёРѕРЅ"
 
 msgctxt "#32003"
 msgid "Autocompletion language"
-msgstr "Язык автозаполнения"
+msgstr "РЇР·С‹Рє Р°РІС‚РѕР·Р°РїРѕР»РЅРµРЅРёСЏ"
 
 msgctxt "#32004"
 msgid "Autocompletion provider"
-msgstr "Поставщик автозаполнения"
+msgstr "РџРѕСЃС‚Р°РІС‰РёРє Р°РІС‚РѕР·Р°РїРѕР»РЅРµРЅРёСЏ"
 
 msgctxt "#32005"
 msgid "Windowed mode (for low-power platforms)"
-msgstr "Оконный режим (для маломощных платформ)"
+msgstr "РћРєРѕРЅРЅС‹Р№ СЂРµР¶РёРј (РґР»СЏ РјР°Р»РѕРјРѕС‰РЅС‹С… РїР»Р°С‚С„РѕСЂРј)"
 
 msgctxt "#32006"
 msgid "Use as thumbnail"
-msgstr "Использовать как эскиз"
+msgstr "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє СЌСЃРєРёР·"
 
 msgctxt "#32007"
 msgid "Use as fanart"
-msgstr "Использовать как фанарт"
+msgstr "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє С„Р°РЅР°СЂС‚"
 
 msgctxt "#32008"
 msgid "Autocompletion"
-msgstr "Автозаполнение"
+msgstr "РђРІС‚РѕР·Р°РїРѕР»РЅРµРЅРёРµ"
 
 msgctxt "#32009"
 msgid "Show person information"
-msgstr "Показать персональную информацию"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ РїРµСЂСЃРѕРЅР°Р»СЊРЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ"
 
 msgctxt "#32010"
 msgid "Filmography"
-msgstr "Фильмография"
+msgstr "Р¤РёР»СЊРјРѕРіСЂР°С„РёСЏ"
 
 msgctxt "#32011"
 msgid "Known movies"
-msgstr "Известные фильмы"
+msgstr "РР·РІРµСЃС‚РЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32012"
 msgid "Birthday"
-msgstr "День рождения"
+msgstr "Р”РµРЅСЊ СЂРѕР¶РґРµРЅРёСЏ"
 
 msgctxt "#32013"
 msgid "Day of death"
-msgstr "День смерти"
+msgstr "Р”РµРЅСЊ СЃРјРµСЂС‚Рё"
 
 msgctxt "#32014"
 msgid "Place of birth"
-msgstr "Место рождения"
+msgstr "РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ"
 
 msgctxt "#32015"
 msgid "Adult actor"
-msgstr "Порноактер"
+msgstr "РџРѕСЂРЅРѕР°РєС‚РµСЂ"
 
 msgctxt "#32016"
 msgid "Also known as"
-msgstr "Также известен как"
+msgstr "РўР°РєР¶Рµ РёР·РІРµСЃС‚РµРЅ РєР°Рє"
 
 msgctxt "#32017"
 msgid "Homepage"
-msgstr "Домашняя страница"
+msgstr "Р”РѕРјР°С€РЅСЏСЏ СЃС‚СЂР°РЅРёС†Р°"
 
 msgctxt "#32018"
 msgid "Role"
-msgstr "Роль"
+msgstr "Р РѕР»СЊ"
 
 msgctxt "#32019"
 msgid "Job"
-msgstr "Работа"
+msgstr "Р Р°Р±РѕС‚Р°"
 
 msgctxt "#32020"
 msgid "Age"
-msgstr "Возраст"
+msgstr "Р’РѕР·СЂР°СЃС‚"
 
 msgctxt "#32021"
 msgid "In database"
-msgstr "В базе данных"
+msgstr "Р’ Р±Р°Р·Рµ РґР°РЅРЅС‹С…"
 
 msgctxt "#32022"
 msgid "Clear filters"
-msgstr "Очистить фильтры"
+msgstr "РћС‡РёСЃС‚РёС‚СЊ С„РёР»СЊС‚СЂС‹"
 
 msgctxt "#32023"
 msgid "Filters"
-msgstr "Фильтры"
+msgstr "Р¤РёР»СЊС‚СЂС‹"
 
 msgctxt "#32024"
 msgid "My account"
-msgstr "Моя учетная запись"
+msgstr "РњРѕСЏ СѓС‡РµС‚РЅР°СЏ Р·Р°РїРёСЃСЊ"
 
 msgctxt "#32025"
 msgid "Episode index"
-msgstr "Индекс эпизода"
+msgstr "РРЅРґРµРєСЃ СЌРїРёР·РѕРґР°"
 
 msgctxt "#32026"
 msgid "Related movie lists"
-msgstr "Связанные списки фильмов"
+msgstr "РЎРІСЏР·Р°РЅРЅС‹Рµ СЃРїРёСЃРєРё С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32027"
 msgid "Select person"
-msgstr "Выберите персону"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ РїРµСЂСЃРѕРЅСѓ"
 
 msgctxt "#32028"
 msgid "Airing episodes"
-msgstr "Эпизоды в эфире"
+msgstr "Р­РїРёР·РѕРґС‹ РІ СЌС„РёСЂРµ"
 
 msgctxt "#32029"
 msgid "Season premiere episodes"
-msgstr "Эпизоды премьеры сезона"
+msgstr "Р­РїРёР·РѕРґС‹ РїСЂРµРјСЊРµСЂС‹ СЃРµР·РѕРЅР°"
 
 msgctxt "#32030"
 msgid "Movie appearances"
-msgstr "Премьеры фильмов"
+msgstr "РџСЂРµРјСЊРµСЂС‹ С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32031"
 msgid "TV show appearances"
-msgstr "Премьеры сериалов"
+msgstr "РџСЂРµРјСЊРµСЂС‹ СЃРµСЂРёР°Р»РѕРІ"
 
 msgctxt "#32032"
 msgid "Trending TV shows"
-msgstr "Сериалы в тренде"
+msgstr "РЎРµСЂРёР°Р»С‹ РІ С‚СЂРµРЅРґРµ"
 
 msgctxt "#32033"
 msgid "Enter person name"
-msgstr "Введите имя персоны"
+msgstr "Р’РІРµРґРёС‚Рµ РёРјСЏ РїРµСЂСЃРѕРЅС‹"
 
 msgctxt "#32034"
 msgid "Person results for %s"
-msgstr "Персональные результаты для %s"
+msgstr "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РґР»СЏ %s"
 
 msgctxt "#32035"
 msgid "Remove from list"
-msgstr "Удалить из списка"
+msgstr "РЈРґР°Р»РёС‚СЊ РёР· СЃРїРёСЃРєР°"
 
 msgctxt "#32036"
 msgid "Movie list"
-msgstr "Список фильмов"
+msgstr "РЎРїРёСЃРѕРє С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32037"
 msgid "Overview"
-msgstr "Обзор"
+msgstr "РћР±Р·РѕСЂ"
 
 msgctxt "#32038"
 msgid "TV shows airing today"
-msgstr "Сериалы сегодня"
+msgstr "РЎРµСЂРёР°Р»С‹ СЃРµРіРѕРґРЅСЏ"
 
 msgctxt "#32039"
 msgid "On-the-air TV shows"
-msgstr "Сериалы в эфире"
+msgstr "РЎРµСЂРёР°Р»С‹ РІ СЌС„РёСЂРµ"
 
 msgctxt "#32040"
 msgid "Top rated TV shows"
-msgstr "Сериалы с самым высоким рейтингом"
+msgstr "РЎРµСЂРёР°Р»С‹ СЃ СЃР°РјС‹Рј РІС‹СЃРѕРєРёРј СЂРµР№С‚РёРЅРіРѕРј"
 
 msgctxt "#32041"
 msgid "Popular TV shows"
-msgstr "Популярные сериалы"
+msgstr "РџРѕРїСѓР»СЏСЂРЅС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32042"
 msgid "In-cinema movies"
-msgstr "Фильмы в кино"
+msgstr "Р¤РёР»СЊРјС‹ РІ РєРёРЅРѕ"
 
 msgctxt "#32043"
 msgid "Upcoming movies"
-msgstr "Предстоящие фильмы"
+msgstr "РџСЂРµРґСЃС‚РѕСЏС‰РёРµ С„РёР»СЊРјС‹"
 
 msgctxt "#32044"
 msgid "Popular movies"
-msgstr "Популярные фильмы"
+msgstr "РџРѕРїСѓР»СЏСЂРЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32045"
 msgid "User-created lists"
-msgstr "Пользовательские списки"
+msgstr "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРµ СЃРїРёСЃРєРё"
 
 msgctxt "#32046"
 msgid "Top rated movies"
-msgstr "Фильмы с самым высоким рейтингом"
+msgstr "Р¤РёР»СЊРјС‹ СЃ СЃР°РјС‹Рј РІС‹СЃРѕРєРёРј СЂРµР№С‚РёРЅРіРѕРј"
 
 msgctxt "#32047"
 msgid "Trending movies"
-msgstr "Фильмы в тренде"
+msgstr "Р¤РёР»СЊРјС‹ РІ С‚СЂРµРЅРґРµ"
 
 msgctxt "#32048"
 msgid "Opening movies"
-msgstr "Открытие фильмов"
+msgstr "РћС‚РєСЂС‹С‚РёРµ С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32049"
 msgid "Current DVD releases"
-msgstr "Текущие DVD релизы"
+msgstr "РўРµРєСѓС‰РёРµ DVD СЂРµР»РёР·С‹"
 
 msgctxt "#32050"
 msgid "Online information"
-msgstr "Online информация"
+msgstr "Online РёРЅС„РѕСЂРјР°С†РёСЏ"
 
 msgctxt "#32051"
 msgid "Trailer"
-msgstr "Трейлер"
+msgstr "РўСЂРµР№Р»РµСЂ"
 
 msgctxt "#32052"
 msgid "No trailers found"
-msgstr "Трейлеры не найдены"
+msgstr "РўСЂРµР№Р»РµСЂС‹ РЅРµ РЅР°Р№РґРµРЅС‹"
 
 msgctxt "#32053"
 msgid "New DVD releases"
-msgstr "Новые DVD релизы"
+msgstr "РќРѕРІС‹Рµ DVD СЂРµР»РёР·С‹"
 
 msgctxt "#32054"
 msgid "Upcoming DVDs"
-msgstr "Предстоящие DVD"
+msgstr "РџСЂРµРґСЃС‚РѕСЏС‰РёРµ DVD"
 
 msgctxt "#32055"
 msgid "Box office"
-msgstr "Сбор"
+msgstr "РЎР±РѕСЂ"
 
 msgctxt "#32056"
 msgid "Top rentals"
-msgstr "Лучший прокат"
+msgstr "Р›СѓС‡С€РёР№ РїСЂРѕРєР°С‚"
 
 msgctxt "#32057"
 msgid "Dimensions"
-msgstr "Размеры"
+msgstr "Р Р°Р·РјРµСЂС‹"
 
 msgctxt "#32058"
 msgid "Related"
-msgstr "Связанный"
+msgstr "РЎРІСЏР·Р°РЅРЅС‹Р№"
 
 msgctxt "#32059"
 msgid "Added movie to CouchPotato"
-msgstr "Добавлен фильм в CouchPotato"
+msgstr "Р”РѕР±Р°РІР»РµРЅ С„РёР»СЊРј РІ CouchPotato"
 
 msgctxt "#32060"
 msgid "Relevance"
-msgstr "Актуальность"
+msgstr "РђРєС‚СѓР°Р»СЊРЅРѕСЃС‚СЊ"
 
 msgctxt "#32061"
 msgid "views"
-msgstr "просмотры"
+msgstr "РїСЂРѕСЃРјРѕС‚СЂС‹"
 
 msgctxt "#32062"
 msgid "One day"
-msgstr "Один день"
+msgstr "РћРґРёРЅ РґРµРЅСЊ"
 
 msgctxt "#32063"
 msgid "One week"
-msgstr "Одна неделя"
+msgstr "РћРґРЅР° РЅРµРґРµР»СЏ"
 
 msgctxt "#32064"
 msgid "One month"
-msgstr "Один месяц"
+msgstr "РћРґРёРЅ РјРµСЃСЏС†"
 
 msgctxt "#32065"
 msgid "One year"
-msgstr "Один год"
+msgstr "РћРґРёРЅ РіРѕРґ"
 
 msgctxt "#32066"
 msgid "2D / 3D"
@@ -295,400 +295,400 @@ msgstr ""
 
 msgctxt "#32067"
 msgid "Amount of days"
-msgstr "Количество дней"
+msgstr "РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№"
 
 msgctxt "#32068"
 msgid "Amount of videos"
-msgstr "Количество видео"
+msgstr "РљРѕР»РёС‡РµСЃС‚РІРѕ РІРёРґРµРѕ"
 
 msgctxt "#32069"
 msgid "Show similar videos"
-msgstr "Показать похожие видео"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ РїРѕС…РѕР¶РёРµ РІРёРґРµРѕ"
 
 msgctxt "#32070"
 msgid "Show filmography"
-msgstr "Показать фильмографию"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ С„РёР»СЊРјРѕРіСЂР°С„РёСЋ"
 
 msgctxt "#32071"
 msgid "Released"
-msgstr "Выпущенный"
+msgstr "Р’С‹РїСѓС‰РµРЅРЅС‹Р№"
 
 msgctxt "#32072"
 msgid "Post production"
-msgstr "Послепроизводственный этап"
+msgstr "РџРѕСЃР»РµРїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Р№ СЌС‚Р°Рї"
 
 msgctxt "#32073"
 msgid "In production"
-msgstr "В производстве"
+msgstr "Р’ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ"
 
 msgctxt "#32074"
 msgid "Ended"
-msgstr "Закончилось"
+msgstr "Р—Р°РєРѕРЅС‡РёР»РѕСЃСЊ"
 
 msgctxt "#32075"
 msgid "Returning series"
-msgstr "Возвращение серий"
+msgstr "Р’РѕР·РІСЂР°С‰РµРЅРёРµ СЃРµСЂРёР№"
 
 msgctxt "#32076"
 msgid "Planned"
-msgstr "Запланированные"
+msgstr "Р—Р°РїР»Р°РЅРёСЂРѕРІР°РЅРЅС‹Рµ"
 
 msgctxt "#32077"
 msgid "Remove filter"
-msgstr "Удалить фильтр"
+msgstr "РЈРґР°Р»РёС‚СЊ С„РёР»СЊС‚СЂ"
 
 msgctxt "#32078"
 msgid "Remove all"
-msgstr "Удалить все"
+msgstr "РЈРґР°Р»РёС‚СЊ РІСЃРµ"
 
 msgctxt "#32080"
 msgid "Force native appearance"
-msgstr "Родной внешний вид"
+msgstr "Р РѕРґРЅРѕР№ РІРЅРµС€РЅРёР№ РІРёРґ"
 
 msgctxt "#32081"
 msgid "More videos from"
-msgstr "Больше видео от"
+msgstr "Р‘РѕР»СЊС€Рµ РІРёРґРµРѕ РѕС‚"
 
 msgctxt "#32082"
 msgid "votes"
-msgstr "голосов"
+msgstr "РіРѕР»РѕСЃРѕРІ"
 
 msgctxt "#32083"
 msgid "Add movie to list"
-msgstr "Добавить фильм в список"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ С„РёР»СЊРј РІ СЃРїРёСЃРѕРє"
 
 msgctxt "#32084"
 msgid "Use classic keyboard for search"
-msgstr "Использовать классическую клавиатуру для поиска"
+msgstr "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР»Р°СЃСЃРёС‡РµСЃРєСѓСЋ РєР»Р°РІРёР°С‚СѓСЂСѓ РґР»СЏ РїРѕРёСЃРєР°"
 
 msgctxt "#32085"
 msgid "Anticipated TV shows"
-msgstr "Ожидаемые сериалы"
+msgstr "РћР¶РёРґР°РµРјС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32086"
 msgid "Most played TV shows"
-msgstr "Самые популярные сериалы"
+msgstr "РЎР°РјС‹Рµ РїРѕРїСѓР»СЏСЂРЅС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32087"
 msgid "Most collected TV shows"
-msgstr "Самые собранные сериалы"
+msgstr "РЎР°РјС‹Рµ СЃРѕР±СЂР°РЅРЅС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32088"
 msgid "Most watched TV shows"
-msgstr "Самые просматриваемые сериалы"
+msgstr "РЎР°РјС‹Рµ РїСЂРѕСЃРјР°С‚СЂРёРІР°РµРјС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32089"
 msgid "Most played movies"
-msgstr "Самые популярные фильмы"
+msgstr "РЎР°РјС‹Рµ РїРѕРїСѓР»СЏСЂРЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32090"
 msgid "Most watched movies"
-msgstr "Самые просматриваемые фильмы"
+msgstr "РЎР°РјС‹Рµ РїСЂРѕСЃРјР°С‚СЂРёРІР°РµРјС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32091"
 msgid "Most collected movies"
-msgstr "Самые собранные фильмы"
+msgstr "РЎР°РјС‹Рµ СЃРѕР±СЂР°РЅРЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32092"
 msgid "Anticipated movies"
-msgstr "Ожидаемые фильмы"
+msgstr "РћР¶РёРґР°РµРјС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32093"
 msgid "Rated episodes"
-msgstr "Оцененые эпизоды"
+msgstr "РћС†РµРЅРµРЅС‹Рµ СЌРїРёР·РѕРґС‹"
 
 msgctxt "#32094"
 msgid "Male"
-msgstr "Мужчина"
+msgstr "РњСѓР¶С‡РёРЅР°"
 
 msgctxt "#32095"
 msgid "Female"
-msgstr "Женщина"
+msgstr "Р–РµРЅС‰РёРЅР°"
 
 msgctxt "#32099"
 msgid "Include porn stars"
-msgstr "Включать порнозвезд"
+msgstr "Р’РєР»СЋС‡Р°С‚СЊ РїРѕСЂРЅРѕР·РІРµР·Рґ"
 
 msgctxt "#32100"
 msgid "Get extrafanart"
-msgstr "Получить экстрафанарт"
+msgstr "РџРѕР»СѓС‡РёС‚СЊ СЌРєСЃС‚СЂР°С„Р°РЅР°СЂС‚"
 
 msgctxt "#32101"
 msgid "Get extrathumbs"
-msgstr "Получить превью"
+msgstr "РџРѕР»СѓС‡РёС‚СЊ РїСЂРµРІСЊСЋ"
 
 msgctxt "#32102"
 msgid "Get tune"
-msgstr "Получить мелодию"
+msgstr "РџРѕР»СѓС‡РёС‚СЊ РјРµР»РѕРґРёСЋ"
 
 msgctxt "#32103"
 msgid "Change info labels"
-msgstr "Изменить информационные метки"
+msgstr "РР·РјРµРЅРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Рµ РјРµС‚РєРё"
 
 msgctxt "#32104"
 msgid "Sort by"
-msgstr "Сортировать по"
+msgstr "РЎРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїРѕ"
 
 msgctxt "#32105"
 msgid "Filters"
-msgstr "Фильтры"
+msgstr "Р¤РёР»СЊС‚СЂС‹"
 
 msgctxt "#32106"
 msgid "Choose filter behaviour"
-msgstr "Выберите поведение фильтра"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ РїРѕРІРµРґРµРЅРёРµ С„РёР»СЊС‚СЂР°"
 
 msgctxt "#32107"
 msgid "Add to list"
-msgstr "Добавить в список"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РІ СЃРїРёСЃРѕРє"
 
 msgctxt "#32108"
 msgid "Revenue"
-msgstr "Доход"
+msgstr "Р”РѕС…РѕРґ"
 
 msgctxt "#32109"
 msgid "Budget"
-msgstr "Бюджет"
+msgstr "Р‘СЋРґР¶РµС‚"
 
 msgctxt "#32110"
 msgid "Popularity"
-msgstr "Популярность"
+msgstr "РџРѕРїСѓР»СЏСЂРЅРѕСЃС‚СЊ"
 
 msgctxt "#32111"
 msgid "Vote count"
-msgstr "Количество голосов"
+msgstr "РљРѕР»РёС‡РµСЃС‚РІРѕ РіРѕР»РѕСЃРѕРІ"
 
 msgctxt "#32112"
 msgid "Vote average"
-msgstr "Средний балл"
+msgstr "РЎСЂРµРґРЅРёР№ Р±Р°Р»Р»"
 
 msgctxt "#32113"
 msgid "Rate movie"
-msgstr "Оценить фильм"
+msgstr "РћС†РµРЅРёС‚СЊ С„РёР»СЊРј"
 
 msgctxt "#32114"
 msgid "Keyword"
-msgstr "Ключевое слово"
+msgstr "РљР»СЋС‡РµРІРѕРµ СЃР»РѕРІРѕ"
 
 msgctxt "#32115"
 msgid "Crew"
-msgstr "Команда"
+msgstr "РљРѕРјР°РЅРґР°"
 
 msgctxt "#32116"
 msgid "Recommended By TMDB"
-msgstr "Рекомендовано TMDB"
+msgstr "Р РµРєРѕРјРµРЅРґРѕРІР°РЅРѕ TMDB"
 
 msgctxt "#32117"
 msgid "Official videos"
-msgstr "Официальные видео"
+msgstr "РћС„РёС†РёР°Р»СЊРЅС‹Рµ РІРёРґРµРѕ"
 
 msgctxt "#32118"
 msgid "YouTube videos"
-msgstr "YouTube видео"
+msgstr "YouTube РІРёРґРµРѕ"
 
 msgctxt "#32119"
 msgid "Artwork"
-msgstr "Иллюстрации"
+msgstr "РР»Р»СЋСЃС‚СЂР°С†РёРё"
 
 msgctxt "#32120"
 msgid "Movie actor roles"
-msgstr "Роли в фильме"
+msgstr "Р РѕР»Рё РІ С„РёР»СЊРјРµ"
 
 msgctxt "#32121"
 msgid "TV show roles"
-msgstr "Роли в сериале"
+msgstr "Р РѕР»Рё РІ СЃРµСЂРёР°Р»Рµ"
 
 msgctxt "#32122"
 msgid "Movie crew member"
-msgstr "Член команды фильма"
+msgstr "Р§Р»РµРЅ РєРѕРјР°РЅРґС‹ С„РёР»СЊРјР°"
 
 msgctxt "#32123"
 msgid "TV show crew member"
-msgstr "Член команды сериала"
+msgstr "Р§Р»РµРЅ РєРѕРјР°РЅРґС‹ СЃРµСЂРёР°Р»Р°"
 
 msgctxt "#32124"
 msgid "Items"
-msgstr "Элементы"
+msgstr "Р­Р»РµРјРµРЅС‚С‹"
 
 msgctxt "#32125"
 msgid "Page"
-msgstr "Страница"
+msgstr "РЎС‚СЂР°РЅРёС†Р°"
 
 msgctxt "#32126"
 msgid "Actor / Crew member"
-msgstr "Актер / Член команды"
+msgstr "РђРєС‚РµСЂ / Р§Р»РµРЅ РєРѕРјР°РЅРґС‹"
 
 msgctxt "#32127"
 msgid "Certification"
-msgstr "Сертификация"
+msgstr "РЎРµСЂС‚РёС„РёРєР°С†РёСЏ"
 
 msgctxt "#32128"
 msgid "Order"
-msgstr "Порядок"
+msgstr "РџРѕСЂСЏРґРѕРє"
 
 msgctxt "#32129"
 msgid "Your rating"
-msgstr "Ваш рейтинг"
+msgstr "Р’Р°С€ СЂРµР№С‚РёРЅРі"
 
 msgctxt "#32130"
 msgid "Show lists"
-msgstr "Показать списки"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ СЃРїРёСЃРєРё"
 
 msgctxt "#32131"
 msgid "Already rated"
-msgstr "Уже оценено"
+msgstr "РЈР¶Рµ РѕС†РµРЅРµРЅРѕ"
 
 msgctxt "#32132"
 msgid "Extras"
-msgstr "Дополнительно"
+msgstr "Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ"
 
 msgctxt "#32133"
 msgid "Manage"
-msgstr "Настроить"
+msgstr "РќР°СЃС‚СЂРѕРёС‚СЊ"
 
 msgctxt "#32134"
 msgid "Starred movies"
-msgstr "Помеченные фильмы"
+msgstr "РџРѕРјРµС‡РµРЅРЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32135"
 msgid "Rated movies"
-msgstr "Оцененные фильмы"
+msgstr "РћС†РµРЅРµРЅРЅС‹Рµ С„РёР»СЊРјС‹"
 
 msgctxt "#32136"
 msgid "Choose list"
-msgstr "Выберите список"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ СЃРїРёСЃРѕРє"
 
 msgctxt "#32137"
 msgid "Enter list name"
-msgstr "Введите название списка"
+msgstr "Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ СЃРїРёСЃРєР°"
 
 msgctxt "#32138"
 msgid "Delete movie list"
-msgstr "Удалить список фильмов"
+msgstr "РЈРґР°Р»РёС‚СЊ СЃРїРёСЃРѕРє С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32139"
 msgid "New movie list"
-msgstr "Новый список фильмов"
+msgstr "РќРѕРІС‹Р№ СЃРїРёСЃРѕРє С„РёР»СЊРјРѕРІ"
 
 msgctxt "#32140"
 msgid "For all features enter your TMDB credentials in addon settings. "
-msgstr "Для всех функций введите свои учетные данные TMDB в настройках дополнения."
+msgstr "Р”Р»СЏ РІСЃРµС… С„СѓРЅРєС†РёР№ РІРІРµРґРёС‚Рµ СЃРІРѕРё СѓС‡РµС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ TMDB РІ РЅР°СЃС‚СЂРѕР№РєР°С… РґРѕРїРѕР»РЅРµРЅРёСЏ."
 
 msgctxt "#32141"
 msgid "This product uses the TMDb API but is not endorsed or certified by TMDb."
-msgstr "Этот продукт использует API TMDb, но не одобрен или сертифицирован TMDb."
+msgstr "Р­С‚РѕС‚ РїСЂРѕРґСѓРєС‚ РёСЃРїРѕР»СЊР·СѓРµС‚ API TMDb, РЅРѕ РЅРµ РѕРґРѕР±СЂРµРЅ РёР»Рё СЃРµСЂС‚РёС„РёС†РёСЂРѕРІР°РЅ TMDb."
 
 msgctxt "#32142"
 msgid "Studios"
-msgstr "Студии"
+msgstr "РЎС‚СѓРґРёРё"
 
 msgctxt "#32143"
 msgid "Could not find item at MovieDB"
-msgstr "Не удалось найти элемент на MovieDB"
+msgstr "РќРµ СѓРґР°Р»РѕСЃСЊ РЅР°Р№С‚Рё СЌР»РµРјРµРЅС‚ РЅР° MovieDB"
 
 msgctxt "#32144"
 msgid "Starred TV shows"
-msgstr "Помеченные сериалы"
+msgstr "РџРѕРјРµС‡РµРЅРЅС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32145"
 msgid "Rated TV shows"
-msgstr "Оцененные сериалы"
+msgstr "РћС†РµРЅРµРЅРЅС‹Рµ СЃРµСЂРёР°Р»С‹"
 
 msgctxt "#32146"
 msgid "Search for '%s'"
-msgstr "Искать для '%s'"
+msgstr "РСЃРєР°С‚СЊ РґР»СЏ '%s'"
 
 msgctxt "#32147"
 msgid "Show appearances"
-msgstr "Показать внешние виды"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ РІРЅРµС€РЅРёРµ РІРёРґС‹"
 
 msgctxt "#32148"
 msgid "Show information"
-msgstr "Показать информацию"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ"
 
 msgctxt "#32149"
 msgid "Upper limit"
-msgstr "Верхний предел"
+msgstr "Р’РµСЂС…РЅРёР№ РїСЂРµРґРµР»"
 
 msgctxt "#32150"
 msgid "Lower limit"
-msgstr "Нижний предел"
+msgstr "РќРёР¶РЅРёР№ РїСЂРµРґРµР»"
 
 msgctxt "#32151"
 msgid "Choose option"
-msgstr "Выберите вариант"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ РІР°СЂРёР°РЅС‚"
 
 msgctxt "#32152"
 msgid "Networks"
-msgstr "Сети"
+msgstr "РЎРµС‚Рё"
 
 msgctxt "#32153"
 msgid "Certification country"
-msgstr "Страна сертификации"
+msgstr "РЎС‚СЂР°РЅР° СЃРµСЂС‚РёС„РёРєР°С†РёРё"
 
 msgctxt "#32154"
 msgid "Star"
-msgstr "Поставить отметку"
+msgstr "РџРѕСЃС‚Р°РІРёС‚СЊ РѕС‚РјРµС‚РєСѓ"
 
 msgctxt "#32155"
 msgid "UnStar"
-msgstr "Снять отметку"
+msgstr "РЎРЅСЏС‚СЊ РѕС‚РјРµС‚РєСѓ"
 
 msgctxt "#32156"
 msgid "Person"
-msgstr "Персона"
+msgstr "РџРµСЂСЃРѕРЅР°"
 
 msgctxt "#32157"
 msgid "Created at"
-msgstr "Создано в"
+msgstr "РЎРѕР·РґР°РЅРѕ РІ"
 
 msgctxt "#32158"
 msgid "Birthday today!"
-msgstr "Сегодня день рождения!"
+msgstr "РЎРµРіРѕРґРЅСЏ РґРµРЅСЊ СЂРѕР¶РґРµРЅРёСЏ!"
 
 msgctxt "#32159"
 msgid "Language for TheMovieDB requests"
-msgstr "Язык запросов TheMovieDB"
+msgstr "РЇР·С‹Рє Р·Р°РїСЂРѕСЃРѕРІ TheMovieDB"
 
 msgctxt "#32160"
 msgid "TheMovieDB username"
-msgstr "TheMovieDB имя пользователя"
+msgstr "TheMovieDB РёРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ"
 
 msgctxt "#32161"
 msgid "TheMovieDB password"
-msgstr "TheMovieDB пароль"
+msgstr "TheMovieDB РїР°СЂРѕР»СЊ"
 
 msgctxt "#32162"
 msgid "Include adult actors / movies"
-msgstr "Включить актеров/фильмы для взрослых"
+msgstr "Р’РєР»СЋС‡РёС‚СЊ Р°РєС‚РµСЂРѕРІ/С„РёР»СЊРјС‹ РґР»СЏ РІР·СЂРѕСЃР»С‹С…"
 
 msgctxt "#32163"
 msgid "Open InfoDialog by default"
-msgstr "Открывать InfoDialog по умолчанию"
+msgstr "РћС‚РєСЂС‹РІР°С‚СЊ InfoDialog РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ"
 
 msgctxt "#32164"
 msgid "Delete cache"
-msgstr "Удалить кеш"
+msgstr "РЈРґР°Р»РёС‚СЊ РєРµС€"
 
 msgctxt "#32165"
 msgid "Add to CouchPotato"
-msgstr "Добавить в CouchPotato"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РІ CouchPotato"
 
 msgctxt "#32166"
 msgid "Add to SickBeard"
-msgstr "Добавить в SickBeard"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РІ SickBeard"
 
 msgctxt "#32167"
 msgid "Reviews"
-msgstr "Отзывы"
+msgstr "РћС‚Р·С‹РІС‹"
 
 msgctxt "#32168"
 msgid "Releases"
-msgstr "Релизы"
+msgstr "Р РµР»РёР·С‹"
 
 msgctxt "#32169"
 msgid "Rate TV show"
-msgstr "Оценить сериал"
+msgstr "РћС†РµРЅРёС‚СЊ СЃРµСЂРёР°Р»"
 
 msgctxt "#32170"
 msgid "Add to Trakt Watchlist"
-msgstr "Добавить в список наблюдения Trakt"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РІ СЃРїРёСЃРѕРє РЅР°Р±Р»СЋРґРµРЅРёСЏ Trakt"
