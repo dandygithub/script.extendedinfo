@@ -427,7 +427,7 @@ msgstr "Змінити інформаційні мітки"
 
 msgctxt "#32104"
 msgid "Sort by"
-msgstr "Сортувати за"
+msgstr "Сорт. за"
 
 msgctxt "#32105"
 msgid "Filters"
@@ -594,8 +594,8 @@ msgid "Rated TV shows"
 msgstr "Оцінені серіали"
 
 msgctxt "#32146"
-msgid "Search for '%s'"
-msgstr "Шукати для '%s'"
+msgid "Search - %s"
+msgstr "Пошук для %s"
 
 msgctxt "#32147"
 msgid "Show appearances"

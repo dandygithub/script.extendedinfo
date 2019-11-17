@@ -657,7 +657,7 @@ msgid "Rated TV shows"
 msgstr ""
 
 msgctxt "#32146"
-msgid "Search for '%s'"
+msgid "Search - %s"
 msgstr ""
 
 msgctxt "#32147"
