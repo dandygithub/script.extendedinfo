@@ -212,13 +212,13 @@ class DialogMovieInfo(DialogVideoInfo):
 
     @ch.click(ID_BUTTON_PLAY_RESUME)
     def play_noresume_button(self, control_id):
-        self.exit_script()
+        self.exit_script(control_id)
         xbmc.executebuiltin("Dialog.Close(movieinformation)")
         kodijson.play_media("movie", self.info["dbid"], True)
 
     @ch.click(ID_BUTTON_PLAY_NORESUME)
     def play_resume_button(self, control_id):
-        self.exit_script()
+        self.exit_script(control_id)
         xbmc.executebuiltin("Dialog.Close(movieinformation)")
         kodijson.play_media("movie", self.info["dbid"], False)
 
@@ -229,7 +229,6 @@ class DialogMovieInfo(DialogVideoInfo):
         if movie_id:
             call = "RunScript(script.artwork.downloader,mediatype=movie,dbid={}%s)".format(movie_id)
             options += [(addon.LANG(413), call % ",mode=gui"),
-                        (addon.LANG(14061), call % ""),
                         (addon.LANG(32101), call % ",mode=custom,extrathumbs"),
                         (addon.LANG(32100), call % ",mode=custom")]
         else:

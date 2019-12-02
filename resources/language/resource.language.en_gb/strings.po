@@ -321,7 +321,7 @@ msgstr ""
 
 #: \resources\skins\Default\1080i\script-script.extendedinfo-YoutubeList.xml:518
 msgctxt "#32066"
-msgid "2D / 3D"
+msgid "2D/3D"
 msgstr ""
 
 #: \resources\lib\DialogYoutubeList.py:59
@@ -577,7 +577,7 @@ msgid "Page"
 msgstr ""
 
 msgctxt "#32126"
-msgid "Actor / Crew member"
+msgid "Actor/Crew member"
 msgstr ""
 
 msgctxt "#32127"

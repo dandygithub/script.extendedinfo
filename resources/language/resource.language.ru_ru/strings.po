@@ -27,15 +27,15 @@ msgstr "Этот скрипт предлагает различные возмо
 
 msgctxt "#32000"
 msgid "Million"
-msgstr "Миллион"
+msgstr "Млн."
 
 msgctxt "#32001"
 msgid "Billion"
-msgstr "Миллиард"
+msgstr "Млрд."
 
 msgctxt "#32002"
 msgid "Trillion"
-msgstr "Триллион"
+msgstr "Трлн."
 
 msgctxt "#32003"
 msgid "Autocompletion language"
@@ -127,7 +127,7 @@ msgstr "Моя учетная запись"
 
 msgctxt "#32025"
 msgid "Episode index"
-msgstr "Индекс эпизода"
+msgstr "Эпизоды"
 
 msgctxt "#32026"
 msgid "Related movie lists"
@@ -143,15 +143,15 @@ msgstr "Эпизоды в эфире"
 
 msgctxt "#32029"
 msgid "Season premiere episodes"
-msgstr "Эпизоды премьеры сезона"
+msgstr "Премьера сезона"
 
 msgctxt "#32030"
 msgid "Movie appearances"
-msgstr "Премьеры фильмов"
+msgstr "Премьеры фильма"
 
 msgctxt "#32031"
 msgid "TV show appearances"
-msgstr "Премьеры сериалов"
+msgstr "Премьеры сериала"
 
 msgctxt "#32032"
 msgid "Trending TV shows"
@@ -290,7 +290,7 @@ msgid "One year"
 msgstr "Один год"
 
 msgctxt "#32066"
-msgid "2D / 3D"
+msgid "2D/3D"
 msgstr ""
 
 msgctxt "#32067"
@@ -311,7 +311,7 @@ msgstr "Показать фильмографию"
 
 msgctxt "#32071"
 msgid "Released"
-msgstr "Выпущенный"
+msgstr "Премьера"
 
 msgctxt "#32072"
 msgid "Post production"
@@ -323,11 +323,11 @@ msgstr "В производстве"
 
 msgctxt "#32074"
 msgid "Ended"
-msgstr "Закончилось"
+msgstr "Закрыт"
 
 msgctxt "#32075"
 msgid "Returning series"
-msgstr "Возвращение серий"
+msgstr "Возвращение"
 
 msgctxt "#32076"
 msgid "Planned"
@@ -471,7 +471,7 @@ msgstr "Ключевое слово"
 
 msgctxt "#32115"
 msgid "Crew"
-msgstr "Команда"
+msgstr "Съемочная группа"
 
 msgctxt "#32116"
 msgid "Recommended By TMDB"
@@ -487,7 +487,7 @@ msgstr "YouTube видео"
 
 msgctxt "#32119"
 msgid "Artwork"
-msgstr "Иллюстрации"
+msgstr "Постеры"
 
 msgctxt "#32120"
 msgid "Movie actor roles"
@@ -499,11 +499,11 @@ msgstr "Роли в сериале"
 
 msgctxt "#32122"
 msgid "Movie crew member"
-msgstr "Член команды фильма"
+msgstr "Член съемочной группы фильма"
 
 msgctxt "#32123"
 msgid "TV show crew member"
-msgstr "Член команды сериала"
+msgstr "Член съемочной группы сериала"
 
 msgctxt "#32124"
 msgid "Items"
@@ -514,8 +514,8 @@ msgid "Page"
 msgstr "Страница"
 
 msgctxt "#32126"
-msgid "Actor / Crew member"
-msgstr "Актер / Член команды"
+msgid "Actor/Crew member"
+msgstr "Актер/Член группы"
 
 msgctxt "#32127"
 msgid "Certification"
@@ -691,4 +691,4 @@ msgstr "Оценить сериал"
 
 msgctxt "#32170"
 msgid "Add to Trakt Watchlist"
-msgstr "Добавить в список наблюдения Trakt"
+msgstr "Добавить в список Trakt"

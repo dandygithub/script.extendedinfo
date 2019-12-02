@@ -27,15 +27,15 @@ msgstr "Цей сценарій пропонує різні можливості
 
 msgctxt "#32000"
 msgid "Million"
-msgstr "Мільйон"
+msgstr "Млн."
 
 msgctxt "#32001"
 msgid "Billion"
-msgstr "Мільярд"
+msgstr "Млрд."
 
 msgctxt "#32002"
 msgid "Trillion"
-msgstr "Трильйон"
+msgstr "Трлн."
 
 msgctxt "#32003"
 msgid "Autocompletion language"
@@ -127,7 +127,7 @@ msgstr "Мій обліковий запис"
 
 msgctxt "#32025"
 msgid "Episode index"
-msgstr "Індекс епізоду"
+msgstr "Епізоди"
 
 msgctxt "#32026"
 msgid "Related movie lists"
@@ -290,7 +290,7 @@ msgid "One year"
 msgstr "Один рік"
 
 msgctxt "#32066"
-msgid "2D / 3D"
+msgid "2D/3D"
 msgstr ""
 
 msgctxt "#32067"
@@ -311,7 +311,7 @@ msgstr "Показати фільмографію"
 
 msgctxt "#32071"
 msgid "Released"
-msgstr "Випущений"
+msgstr "Прем'єра"
 
 msgctxt "#32072"
 msgid "Post production"
@@ -323,11 +323,11 @@ msgstr "У виробництві"
 
 msgctxt "#32074"
 msgid "Ended"
-msgstr "Закінчилося"
+msgstr "Закрито"
 
 msgctxt "#32075"
 msgid "Returning series"
-msgstr "Повернення серій"
+msgstr "Повернення"
 
 msgctxt "#32076"
 msgid "Planned"
@@ -471,7 +471,7 @@ msgstr "Ключове слово"
 
 msgctxt "#32115"
 msgid "Crew"
-msgstr "Команда"
+msgstr "Знімальна група"
 
 msgctxt "#32116"
 msgid "Recommended By TMDB"
@@ -487,7 +487,7 @@ msgstr "YouTube відео"
 
 msgctxt "#32119"
 msgid "Artwork"
-msgstr "Ілюстрації"
+msgstr "Постери"
 
 msgctxt "#32120"
 msgid "Movie actor roles"
@@ -499,11 +499,11 @@ msgstr "Ролі в серіалі"
 
 msgctxt "#32122"
 msgid "Movie crew member"
-msgstr "Член команди фільму"
+msgstr "Член знімальної групи фільму"
 
 msgctxt "#32123"
 msgid "TV show crew member"
-msgstr "Член команди серіалу"
+msgstr "Член знімальної групи серіалу"
 
 msgctxt "#32124"
 msgid "Items"
@@ -514,8 +514,8 @@ msgid "Page"
 msgstr "Сторінка"
 
 msgctxt "#32126"
-msgid "Actor / Crew member"
-msgstr "Актор / Член команди"
+msgid "Actor/Crew member"
+msgstr "Актор/Член групи"
 
 msgctxt "#32127"
 msgid "Certification"
@@ -643,7 +643,7 @@ msgstr "Створено в"
 
 msgctxt "#32158"
 msgid "Birthday today!"
-msgstr "Сьогодні День народження!"
+msgstr "Сьогодні день народження!"
 
 msgctxt "#32159"
 msgid "Language for TheMovieDB requests"
@@ -691,4 +691,4 @@ msgstr "Оцінити серіал"
 
 msgctxt "#32170"
 msgid "Add to Trakt Watchlist"
-msgstr "Додати в список спостереження Trakt"
+msgstr "Додати в список Trakt"
