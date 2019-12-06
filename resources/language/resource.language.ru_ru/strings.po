@@ -315,7 +315,7 @@ msgstr "Премьера"
 
 msgctxt "#32072"
 msgid "Post production"
-msgstr "Послепроизводственный этап"
+msgstr "Пост-продакшн"
 
 msgctxt "#32073"
 msgid "In production"
@@ -327,7 +327,7 @@ msgstr "Закрыт"
 
 msgctxt "#32075"
 msgid "Returning series"
-msgstr "Возвращение"
+msgstr "Продолжается"
 
 msgctxt "#32076"
 msgid "Planned"
@@ -692,3 +692,7 @@ msgstr "Оценить сериал"
 msgctxt "#32170"
 msgid "Add to Trakt Watchlist"
 msgstr "Добавить в список Trakt"
+
+msgctxt "#32171"
+msgid "Fanarts"
+msgstr "Фанарты"

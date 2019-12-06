@@ -550,6 +550,7 @@ def search_companies(company_name):
 
 def multi_search(search_str, page=1, cache_days=1):
     params = {"query": search_str,
+              "language": addon.setting("LanguageID"),
               "include_adult": addon.setting("include_adults").lower(),
               "page": page}
     response = get_data(url="search/multi",
@@ -580,6 +581,7 @@ def get_person_info(person_label, skip_dialog=False):
     if not person_label:
         return False
     params = {"query": person_label.split(" / ")[0],
+              "language": addon.setting("LanguageID"),
               "include_adult": addon.setting("include_adults").lower()}
     response = get_data(url="search/person",
                         params=params,
@@ -978,8 +980,10 @@ def extended_actor_info(actor_id):
     '''
     if not actor_id:
         return None
+    params = {"language": addon.setting("LanguageID"),
+              "append_to_response": ALL_ACTOR_PROPS}
     data = get_data(url="person/%s" % (actor_id),
-                        params={"append_to_response": ALL_ACTOR_PROPS},
+                        params=params,
                         cache_days=1)
     if not data:
         utils.notify("Could not find actor info")
