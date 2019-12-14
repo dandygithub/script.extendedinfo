@@ -227,7 +227,7 @@ class DialogMovieInfo(DialogVideoInfo):
         movie_id = self.info.get_info("dbid")
         imdb_id = self.info.get_property("imdb_id")
         if movie_id:
-            call = "RunScript(script.artwork.downloader,mediatype=movie,dbid={}%s)".format(movie_id)
+            call = "RunScript(script.artwork.downloader.ex,mediatype=movie,dbid={}%s)".format(movie_id)
             options += [(addon.LANG(413), call % ",mode=gui"),
                         (addon.LANG(32101), call % ",mode=custom,extrathumbs"),
                         (addon.LANG(32100), call % ",mode=custom")]
