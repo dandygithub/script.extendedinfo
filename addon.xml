@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.007" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.008" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.5"/>
 		<import addon="script.module.kodi65" version="1.0.0"/>
 		<import addon="script.module.routing" version="0.1.0"/>
