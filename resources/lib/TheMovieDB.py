@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 from __future__ import absolute_import
 
 import re
-import urllib
+import urllib.parse as urllib
 
 from kodi65 import kodijson
 from kodi65 import addon
@@ -626,7 +626,7 @@ def get_set_id(set_name):
 def get_data(url="", params=None, cache_days=14):
     params = params if params else {}
     params["api_key"] = TMDB_KEY
-    params = {k: unicode(v).encode('utf-8') for k, v in params.iteritems() if v}
+    params = {k: v for k, v in params.items() if v}
     url = "%s%s?%s" % (URL_BASE, url, urllib.urlencode(params))
     response = utils.get_JSON_response(url, cache_days, "TheMovieDB")
     if not response:

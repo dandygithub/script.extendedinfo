@@ -104,7 +104,7 @@ class WindowManager(object):
         needs *season AND (*tvshow_id OR *tvshow)
         """
         busy.show_busy()
-        from dialogs.DialogSeasonInfo import DialogSeasonInfo
+        import resources.lib.dialogs.DialogSeasonInfo as DialogSeasonInfo
         if not tvshow_id:
             params = {"query": tvshow,
                       "language": addon.setting("language")}
@@ -135,7 +135,7 @@ class WindowManager(object):
         open season info, deal with window stack
         needs (*tvshow_id OR *tvshow) AND *season AND *episode
         """
-        from dialogs.DialogEpisodeInfo import DialogEpisodeInfo
+        import resources.lib.dialogs.DialogEpisodeInfo as DialogEpisodeInfo
         if not tvshow_id and tvshow:
             tvshow_id = tmdb.search_media(media_name=tvshow,
                                           media_type="tv",
@@ -152,7 +152,7 @@ class WindowManager(object):
         """
         open actor info, deal with window stack
         """
-        from .dialogs.DialogActorInfo import DialogActorInfo
+        import resources.lib.dialogs.DialogActorInfo as DialogActorInfo
         if not actor_id:
             name = name.split(" %s " % addon.LANG(20347))
             names = name[0].strip().split(" / ")
@@ -183,7 +183,7 @@ class WindowManager(object):
         open video list, deal with window stack
         """
         #from resources.lib.dialogs.DialogVideoList import DialogVideoList
-        from .dialogs.DialogVideoList import DialogVideoList
+        import resources.lib.dialogs.DialogVideoList as DialogVideoList
         Browser = DialogVideoList.get_window(windows.DialogXML)
         dialog = Browser(LIST_XML,
                          addon.PATH,
