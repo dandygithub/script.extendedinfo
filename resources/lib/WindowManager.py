@@ -10,7 +10,7 @@ import xbmc
 import xbmcgui
 import xbmcvfs
 
-import TheMovieDB as tmdb
+import resources.lib.TheMovieDB as tmdb
 
 from kodi65 import windows
 from kodi65 import addon
@@ -152,7 +152,7 @@ class WindowManager(object):
         """
         open actor info, deal with window stack
         """
-        from dialogs.DialogActorInfo import DialogActorInfo
+        from .dialogs.DialogActorInfo import DialogActorInfo
         if not actor_id:
             name = name.split(" %s " % addon.LANG(20347))
             names = name[0].strip().split(" / ")
@@ -182,7 +182,8 @@ class WindowManager(object):
         """
         open video list, deal with window stack
         """
-        from dialogs import DialogVideoList
+        #from resources.lib.dialogs.DialogVideoList import DialogVideoList
+        from .dialogs.DialogVideoList import DialogVideoList
         Browser = DialogVideoList.get_window(windows.DialogXML)
         dialog = Browser(LIST_XML,
                          addon.PATH,
@@ -200,7 +201,7 @@ class WindowManager(object):
         """
         open video list, deal with window stack
         """
-        from dialogs import DialogYoutubeList
+        import resources.lib.dialogs.DialogYoutubeList as DialogYoutubeList
         YouTube = DialogYoutubeList.get_window(windows.DialogXML)
         dialog = YouTube(u'script-%s-YoutubeList.xml' % addon.ID, addon.PATH,
                          search_str=search_str,
