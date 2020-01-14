@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 from __future__ import absolute_import
 
 import re
-import urllib.parse as urllib
+import urllib.parse
 
 from kodi65 import kodijson
 from kodi65 import addon
@@ -17,7 +17,7 @@ from kodi65 import VideoItem
 from kodi65 import ItemList
 from kodi65 import local_db
 
-TMDB_KEY = '34142515d9d23817496eeb4ff1d223d0'
+TMDB_KEY = "34142515d9d23817496eeb4ff1d223d0"
 POSTER_SIZES = ["w92", "w154", "w185", "w342", "w500", "w780", "original"]
 LOGO_SIZES = ["w45", "w92", "w154", "w185", "w300", "w500", "original"]
 BACKDROP_SIZES = ["w300", "w780", "w1280", "original"]
@@ -153,8 +153,8 @@ def set_rating(media_type, media_id, rating, dbid=None):
 
 def send_request(url, params, values, delete=False):
     params["api_key"] = TMDB_KEY
-    params = {k: unicode(v).encode('utf-8') for k, v in params.iteritems() if v}
-    url = "%s%s?%s" % (URL_BASE, url, urllib.urlencode(params))
+    params = {k: v for k, v in params.items() if v}
+    url = "%s%s?%s" % (URL_BASE, url, urllib.parse.urlencode(params))
     utils.log(url)
     if delete:
         return utils.delete(url, values=values, headers=HEADERS)
@@ -627,7 +627,7 @@ def get_data(url="", params=None, cache_days=14):
     params = params if params else {}
     params["api_key"] = TMDB_KEY
     params = {k: v for k, v in params.items() if v}
-    url = "%s%s?%s" % (URL_BASE, url, urllib.urlencode(params))
+    url = "%s%s?%s" % (URL_BASE, url, urllib.parse.urlencode(params))
     response = utils.get_JSON_response(url, cache_days, "TheMovieDB")
     if not response:
         utils.log("No response from TMDB")

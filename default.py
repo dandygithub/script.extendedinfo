@@ -15,16 +15,16 @@ def pass_list_to_skin(name, data, prefix="", limit=False):
     if data and limit and int(limit) < len(data):
         data = data[:int(limit)]
     if not data:
-        addon.set_global('%s%s.Count' % (prefix, name), '0')
+        addon.set_global("%s%s.Count" % (prefix, name), '0')
         return None
     for (count, result) in enumerate(data):
-        for (key, value) in result.iteritems():
-            addon.set_global('%s%s.%i.%s' % (prefix, name, count + 1, key), unicode(value))
-        for key, value in result.get("properties", {}).iteritems():
+        for (key, value) in result.items():
+            addon.set_global("%s%s.%i.%s" % (prefix, name, count + 1, key), str(value))
+        for key, value in result.get("properties", {}).items():
             if not value:
                 continue
-            addon.set_global('%s%s.%i.%s' % (prefix, name, count + 1, key), unicode(value))
-    addon.set_global('%s%s.Count' % (prefix, name), str(len(data)))
+            addon.set_global("%s%s.%i.%s" % (prefix, name, count + 1, key), str(value))
+    addon.set_global("%s%s.Count" % (prefix, name), str(len(data)))
 
 
 class Main:
@@ -40,10 +40,10 @@ class Main:
                               prefix=self.params.get("prefix", ""),
                               limit=self.params.get("limit", 20))
         if not self.infos:
-            addon.set_global('infodialogs.active', "true")
+            addon.set_global("infodialogs.active", "true")
             from resources.lib.WindowManager import wm
             wm.open_video_list()
-            addon.clear_global('infodialogs.active')
+            addon.clear_global("infodialogs.active")
         addon.clear_global("extendedinfo_running")
 
     def _parse_argv(self):
@@ -51,14 +51,14 @@ class Main:
         self.params = {"handle": None}
         for arg in sys.argv[1:]:
             param = arg.replace('"', '').replace("'", " ")
-            if param.startswith('info='):
+            if param.startswith("info="):
                 self.infos.append(param[5:])
             else:
                 try:
-                    self.params[param.split("=")[0].lower()] = "=".join(param.split("=")[1:]).strip().decode('utf-8')
+                    self.params[param.split("=")[0].lower()] = "=".join(param.split("=")[1:]).strip()
                 except Exception:
                     pass
 
 if (__name__ == "__main__"):
     Main()
-utils.log('finished')
+utils.log("finished")

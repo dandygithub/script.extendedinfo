@@ -3,14 +3,14 @@
 # Copyright (C) 2015 - Philipp Temminghoff <phil65@kodi.tv>
 # This program is Free Software see LICENSE file for details
 
-import urllib
+import urllib.parse
 import re
 
 from kodi65 import utils
 from kodi65 import ItemList
 
-LAST_FM_API_KEY = 'd942dd5ca4c9ee5bd821df58cf8130d4'
-BASE_URL = 'http://ws.audioscrobbler.com/2.0/?'
+LAST_FM_API_KEY = "d942dd5ca4c9ee5bd821df58cf8130d4"
+BASE_URL = "http://ws.audioscrobbler.com/2.0/?"
 
 
 def handle_albums(results):
@@ -89,9 +89,9 @@ def get_data(method, params=None, cache_days=0.5):
     params["method"] = method
     params["api_key"] = LAST_FM_API_KEY
     params["format"] = "json"
-    params = {k: unicode(v).encode('utf-8') for k, v in params.iteritems() if v}
+    params = {k: v for k, v in params.items() if v}
     url = "{base_url}{params}".format(base_url=BASE_URL,
-                                      params=urllib.urlencode(params))
+                                      params=urllib.parse.urlencode(params))
     return utils.get_JSON_response(url=url,
                                    cache_days=cache_days,
                                    folder="LastFM")

@@ -3,7 +3,7 @@
 # Copyright (C) 2015 - Philipp Temminghoff <phil65@kodi.tv>
 # This program is Free Software see LICENSE file for details
 
-import urllib
+import urllib.parse
 
 import xbmc
 
@@ -14,16 +14,16 @@ from kodi65 import AudioItem, VideoItem
 from kodi65 import ItemList
 
 
-AUDIO_DB_KEY = '58353d43204d68753987fl'
-BASE_URL = 'http://www.theaudiodb.com/api/v1/json/%s/' % (AUDIO_DB_KEY)
-PLUGIN_BASE = 'plugin://script.extendedinfo/?info='
+AUDIO_DB_KEY = "58353d43204d68753987fl"
+BASE_URL = "http://www.theaudiodb.com/api/v1/json/%s/" % (AUDIO_DB_KEY)
+PLUGIN_BASE = "plugin://script.extendedinfo/?info="
 
 
 def handle_albums(results):
     albums = ItemList(content_type="albums")
     if not results.get('album'):
         return albums
-    local_desc = 'strDescription' + xbmc.getLanguage(xbmc.ISO_639_1).upper()
+    local_desc = "strDescription" + xbmc.getLanguage(xbmc.ISO_639_1).upper()
     for item in results['album']:
         desc = ""
         if local_desc in item and item[local_desc]:
@@ -101,7 +101,7 @@ def handle_musicvideos(results):
 def extended_artist_info(results):
     if not results.get('artists'):
         return {}
-    local_bio = 'strBiography' + addon.setting("LanguageID").upper()
+    local_bio = "strBiography" + addon.setting("LanguageID").upper()
     artist = results['artists'][0]
     description = ""
     if local_bio in artist and artist[local_bio]:
@@ -161,10 +161,10 @@ def get_artist_details(search_str):
 
 def get_most_loved_tracks(search_str="", mbid=""):
     if mbid:
-        url = 'track-top10-mb'
+        url = "track-top10-mb"
         params = {"s": mbid}
     elif search_str:
-        url = 'track-top10'
+        url = "track-top10"
         params = {"s": search_str}
     else:
         return []
@@ -202,7 +202,7 @@ def get_track_details(audiodb_id):
 
 
 def get_data(url, params):
-    params = {k: unicode(v).encode('utf-8') for k, v in params.iteritems() if v}
-    url = "%s%s.php?%s" % (BASE_URL, url, urllib.urlencode(params))
+    params = {k: v for k, v in params.items() if v}
+    url = "%s%s.php?%s" % (BASE_URL, url, urllib.parse.urlencode(params))
     return utils.get_JSON_response(url=url,
                                    folder="TheAudioDB")

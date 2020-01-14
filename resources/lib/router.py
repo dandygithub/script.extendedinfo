@@ -37,11 +37,11 @@ def run():
         delimiter = "&&"
     for arg in args.split(delimiter):
         param = arg.replace('"', '').replace("'", " ")
-        if param.startswith('info='):
+        if param.startswith("info="):
             infos.append(param[5:])
         else:
             try:
-                params[param.split("=")[0].lower()] = "=".join(param.split("=")[1:]).strip().decode('utf-8')
+                params[param.split("=")[0].lower()] = "=".join(param.split("=")[1:]).strip()
             except Exception:
                 pass
     for info in infos:
@@ -52,7 +52,7 @@ def run():
     else:
         plugin.run()
     addon.clear_global("extendedinfo_running")
-    utils.log('finished')
+    utils.log("finished")
 
 
 @plugin.route('/tmdb')

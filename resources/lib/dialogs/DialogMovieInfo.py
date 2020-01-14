@@ -71,8 +71,8 @@ class DialogMovieInfo(DialogVideoInfo):
 
     def __init__(self, *args, **kwargs):
         super(DialogMovieInfo, self).__init__(*args, **kwargs)
-        data = tmdb.extended_movie_info(movie_id=kwargs.get('id'),
-                                        dbid=kwargs.get('dbid'))
+        data = tmdb.extended_movie_info(movie_id=kwargs.get("id"),
+                                        dbid=kwargs.get("dbid"))
         if not data:
             return None
         self.info, self.lists, self.states = data
@@ -85,7 +85,7 @@ class DialogMovieInfo(DialogVideoInfo):
         if not self.info.get_info("dbid"):
             self.info.set_art("poster", utils.get_file(self.info.get_art("poster")))
         sets_thread.join()
-        self.info.update_properties({"set.%s" % k: v for k, v in sets_thread.setinfo.iteritems()})
+        self.info.update_properties({"set.%s" % k: v for k, v in sets_thread.setinfo.items()})
         set_ids = [item.get_property("id") for item in sets_thread.listitems]
         self.lists["similar"] = [i for i in self.lists["similar"] if i.get_property("id") not in set_ids]
         self.lists["sets"] = sets_thread.listitems
@@ -121,7 +121,7 @@ class DialogMovieInfo(DialogVideoInfo):
     def company_list(self, control_id):
         filters = [{"id": self.FocusedItem(control_id).getProperty("id"),
                     "type": "with_companies",
-                    "label": self.FocusedItem(control_id).getLabel().decode("utf-8")}]
+                    "label": self.FocusedItem(control_id).getLabel()}]
         wm.open_video_list(filters=filters)
 
     @ch.click(ID_LIST_REVIEWS)
@@ -135,14 +135,14 @@ class DialogMovieInfo(DialogVideoInfo):
     def keyword_list(self, control_id):
         filters = [{"id": self.FocusedItem(control_id).getProperty("id"),
                     "type": "with_keywords",
-                    "label": self.FocusedItem(control_id).getLabel().decode("utf-8")}]
+                    "label": self.FocusedItem(control_id).getLabel()}]
         wm.open_video_list(filters=filters)
 
     @ch.click(ID_LIST_GENRES)
     def genre_list(self, control_id):
         filters = [{"id": self.FocusedItem(control_id).getProperty("id"),
                     "type": "with_genres",
-                    "label": self.FocusedItem(control_id).getLabel().decode("utf-8")}]
+                    "label": self.FocusedItem(control_id).getLabel()}]
         wm.open_video_list(filters=filters)
 
     @ch.click(ID_LIST_CERTS)
@@ -159,7 +159,7 @@ class DialogMovieInfo(DialogVideoInfo):
     def movielists_list(self, control_id):
         wm.open_video_list(mode="list",
                            list_id=self.FocusedItem(control_id).getProperty("id"),
-                           filter_label=self.FocusedItem(control_id).getLabel().decode("utf-8"))
+                           filter_label=self.FocusedItem(control_id).getLabel())
 
     @ch.click(ID_BUTTON_OPENLIST)
     def open_list_button(self, control_id):
