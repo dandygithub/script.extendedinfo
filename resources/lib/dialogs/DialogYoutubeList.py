@@ -40,7 +40,7 @@ def get_window(window_type):
                    "videoDimension": addon.LANG(32057),
                    "videoDuration": addon.LANG(180),
                    "videoCaption": addon.LANG(287),
-                   "videoDefinition": addon.LANG(32058),
+                   "videoDefinition": addon.LANG(169),
                    "videoType": "Type",
                    "relatedToVideoId": addon.LANG(32058)}
 

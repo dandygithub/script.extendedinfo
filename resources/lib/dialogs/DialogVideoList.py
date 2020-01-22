@@ -59,7 +59,7 @@ def get_window(window_type):
 
         SORTS = {"movie": {"popularity": addon.LANG(32110),
                            "release_date": addon.LANG(172),
-                           "revenue": addon.LANG(32108),
+                           "revenue": addon.LANG(135),
                            # "Release Date": "primary_release_date",
                            "original_title": addon.LANG(20376),
                            "vote_average": addon.LANG(32112),
