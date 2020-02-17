@@ -696,3 +696,7 @@ msgstr "Додати в список Trakt"
 msgctxt "#32171"
 msgid "Fanarts"
 msgstr "Фанарти"
+
+msgctxt "#32172"
+msgid "API Key"
+msgstr "API ключ"

@@ -760,3 +760,7 @@ msgstr ""
 msgctxt "#32171"
 msgid "Fanarts"
 msgstr ""
+
+msgctxt "#32172"
+msgid "API Key"
+msgstr ""
