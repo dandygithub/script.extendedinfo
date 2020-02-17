@@ -17,4 +17,7 @@
 		<setting label="32003" visible="!eq(-1,local)" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="autocomplete_lang" default="en"/>
 		<setting label="32003" visible="eq(-2,local)" type="select" values="en|de|fr|nl" id="autocomplete_lang_local" default="en"/>
 	</category>
+	<category label="YouTube">
+		<setting label="32172" type="text" id="youtube_apikey" />
+	</category>
 </settings>
