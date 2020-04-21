@@ -289,6 +289,15 @@ def start_info_actions(info, params):
             start_info_actions("extendedactorinfo", params)
         else:
             utils.notify("Error", "Could not find valid content type")
+    elif info == "openinfodialogmenu":
+        if xbmc.getCondVisibility("Container.Content(movies)"):
+            xbmc.executebuiltin("RunScript(script.extendedinfo,info=extendedinfo,dbid=%s,id=%s)" % (xbmc.getInfoLabel("ListItem.DBID"), xbmc.getInfoLabel("ListItem.Property(id)")))
+        elif xbmc.getCondVisibility("Container.Content(tvshows)"):
+            xbmc.executebuiltin("RunScript(script.extendedinfo,info=extendedtvinfo,dbid=%s,id=%s)" % (xbmc.getInfoLabel("ListItem.DBID"), xbmc.getInfoLabel("ListItem.Property(id)")))
+        elif xbmc.getCondVisibility("Container.Content(seasons)"):
+            xbmc.executebuiltin("RunScript(script.extendedinfo,info=seasoninfo,tvshow=%s,season=%s)" % (xbmc.getInfoLabel("ListItem.TVShowTitle"), xbmc.getInfoLabel("ListItem.Season")))
+        elif xbmc.getCondVisibility("Container.Content(actors) | Container.Content(directors)"):
+            xbmc.executebuiltin("RunScript(script.extendedinfo,info=extendedactorinfo,name=%s)" % (xbmc.getInfoLabel("ListItem.Label")))
     elif info == "ratedialog":
         if xbmc.getCondVisibility("System.HasModalDialog"):
             container_id = ""
