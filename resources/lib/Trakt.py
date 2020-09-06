@@ -17,7 +17,7 @@ from kodi65 import local_db
 from kodi65 import VideoItem
 from kodi65 import ItemList
 
-TRAKT_KEY = "e9a7fba3fa1b527c08c073770869c258804124c5d7c984ce77206e695fbaddd5"
+TRAKT_KEY = addon.setting("trakt_apikey")
 BASE_URL = "https://api-v2launch.trakt.tv/"
 HEADERS = {
     'Content-Type': 'application/json',

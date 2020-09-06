@@ -6,10 +6,10 @@
 import urllib.parse
 import re
 
+from kodi65 import addon
 from kodi65 import utils
 from kodi65 import ItemList
 
-LAST_FM_API_KEY = "d942dd5ca4c9ee5bd821df58cf8130d4"
 BASE_URL = "http://ws.audioscrobbler.com/2.0/?"
 
 
@@ -87,7 +87,7 @@ def get_track_info(artist_name="", track=""):
 def get_data(method, params=None, cache_days=0.5):
     params = params if params else {}
     params["method"] = method
-    params["api_key"] = LAST_FM_API_KEY
+    params["api_key"] = addon.setting("lastfm_apikey")
     params["format"] = "json"
     params = {k: v for k, v in params.items() if v}
     url = "{base_url}{params}".format(base_url=BASE_URL,

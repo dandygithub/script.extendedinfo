@@ -5,19 +5,29 @@
 		<setting label="32084" type="bool" id="classic_search" default="true"/>
 		<setting label="32164" type="action" action="RunScript(script.extendedinfo,info=deletecache)"/>
 	</category>
+	<category label="32008">
+		<setting label="32004" type="select" values="google|youtube|local" id="autocomplete_provider" default="youtube"/>
+		<setting label="32003" visible="!eq(-1,local)" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="autocomplete_lang" default="en"/>
+		<setting label="32003" visible="eq(-2,local)" type="select" values="en|de|fr|nl" id="autocomplete_lang_local" default="en"/>
+	</category>
 	<category label="TheMovieDB">
 		<setting label="32080" type="bool" id="force_native_layout" default="false" visible="false"/>
 		<setting label="32159" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="LanguageID" default="en"/>
 		<setting label="32160" type="text" id="tmdb_username" />
 		<setting label="32161" type="text" id="tmdb_password" option="hidden"/>
 		<setting label="32162" type="bool" id="include_adults"/>
+		<setting label="32172" type="text" id="tmdb_apikey" default="34142515d9d23817496eeb4ff1d223d0"/>
 	</category>
-	<category label="32008">
-		<setting label="32004" type="select" values="google|youtube|local" id="autocomplete_provider" default="youtube"/>
-		<setting label="32003" visible="!eq(-1,local)" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="autocomplete_lang" default="en"/>
-		<setting label="32003" visible="eq(-2,local)" type="select" values="en|de|fr|nl" id="autocomplete_lang_local" default="en"/>
+	<category label="TheAudioDB">
+		<setting label="32172" type="text" id="tadb_apikey" default="58353d43204d68753987fl"/>
+	</category>
+	<category label="Trakt">
+		<setting label="32172" type="text" id="trakt_apikey" default="e9a7fba3fa1b527c08c073770869c258804124c5d7c984ce77206e695fbaddd5"/>
+	</category>
+	<category label="LastFM">
+		<setting label="32172" type="text" id="lastfm_apikey" default="d942dd5ca4c9ee5bd821df58cf8130d4"/>
 	</category>
 	<category label="YouTube">
-		<setting label="32172" type="text" id="youtube_apikey" />
+		<setting label="32172" type="text" id="youtube_apikey" default="AIzaSyB-BOZ_o09NLVwq_lMskvvj1olDkFI4JK0"/>
 	</category>
 </settings>

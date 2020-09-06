@@ -17,7 +17,6 @@ from kodi65 import VideoItem
 from kodi65 import ItemList
 from kodi65 import local_db
 
-TMDB_KEY = "34142515d9d23817496eeb4ff1d223d0"
 POSTER_SIZES = ["w92", "w154", "w185", "w342", "w500", "w780", "original"]
 LOGO_SIZES = ["w45", "w92", "w154", "w185", "w300", "w500", "original"]
 BACKDROP_SIZES = ["w300", "w780", "w1280", "original"]
@@ -26,7 +25,7 @@ STILL_SIZES = ["w92", "w185", "w300", "original"]
 HEADERS = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
-    'User-agent': 'Kodi/17.0 ( phil65@kodi.tv )'
+    'User-agent': 'Kodi/19.0'
 }
 IMAGE_BASE_URL = "http://image.tmdb.org/t/p/"
 POSTER_SIZE = "w500"
@@ -152,7 +151,7 @@ def set_rating(media_type, media_id, rating, dbid=None):
 
 
 def send_request(url, params, values, delete=False):
-    params["api_key"] = TMDB_KEY
+    params["api_key"] = addon.setting("tmdb_apikey")
     params = {k: v for k, v in params.items() if v}
     url = "%s%s?%s" % (URL_BASE, url, urllib.parse.urlencode(params))
     utils.log(url)
@@ -625,7 +624,7 @@ def get_set_id(set_name):
 
 def get_data(url="", params=None, cache_days=14):
     params = params if params else {}
-    params["api_key"] = TMDB_KEY
+    params["api_key"] = addon.setting("tmdb_apikey")
     params = {k: v for k, v in params.items() if v}
     url = "%s%s?%s" % (URL_BASE, url, urllib.parse.urlencode(params))
     response = utils.get_JSON_response(url, cache_days, "TheMovieDB")
