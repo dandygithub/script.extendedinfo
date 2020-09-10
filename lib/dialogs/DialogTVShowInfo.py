@@ -6,15 +6,15 @@
 import xbmc
 import xbmcgui
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.WindowManager import wm
+from lib import TheMovieDB as tmdb
+from lib.WindowManager import wm
 
-from kodi65 import imagetools
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import ActionHandler
+from lib.kodi65 import imagetools
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import ActionHandler
 
-from resources.lib.dialogs.DialogVideoInfo import DialogVideoInfo
+from lib.dialogs.DialogVideoInfo import DialogVideoInfo
 
 ID_LIST_SIMILAR = 150
 ID_LIST_SEASONS = 250

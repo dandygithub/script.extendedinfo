@@ -5,14 +5,14 @@
 
 import xbmc
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.WindowManager import wm
-from resources.lib.dialogs.DialogVideoInfo import DialogVideoInfo
+from lib import TheMovieDB as tmdb
+from lib.WindowManager import wm
+from lib.dialogs.DialogVideoInfo import DialogVideoInfo
 
-from kodi65 import imagetools
-from kodi65 import busy
-from kodi65 import addon
-from kodi65 import ActionHandler
+from lib.kodi65 import imagetools
+from lib.kodi65 import busy
+from lib.kodi65 import addon
+from lib.kodi65 import ActionHandler
 
 ID_BUTTON_RATED = 6006
 

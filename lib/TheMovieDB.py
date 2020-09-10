@@ -9,13 +9,13 @@ from __future__ import absolute_import
 import re
 import urllib.parse
 
-from kodi65 import kodijson
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import selectdialog
-from kodi65 import VideoItem
-from kodi65 import ItemList
-from kodi65 import local_db
+from lib.kodi65 import kodijson
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import selectdialog
+from lib.kodi65 import VideoItem
+from lib.kodi65 import ItemList
+from lib.kodi65 import local_db
 
 POSTER_SIZES = ["w92", "w154", "w185", "w342", "w500", "w780", "original"]
 LOGO_SIZES = ["w45", "w92", "w154", "w185", "w300", "w500", "original"]

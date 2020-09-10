@@ -9,18 +9,18 @@ from __future__ import unicode_literals
 import xbmc
 import xbmcgui
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.WindowManager import wm
+from lib import TheMovieDB as tmdb
+from lib.WindowManager import wm
 
-from kodi65 import youtube
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import kodijson
-from kodi65 import selectdialog
-from kodi65 import slideshow
-from kodi65 import VideoItem
-from kodi65 import ActionHandler
-from kodi65 import windows
+from lib.kodi65 import youtube
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import kodijson
+from lib.kodi65 import selectdialog
+from lib.kodi65 import slideshow
+from lib.kodi65 import VideoItem
+from lib.kodi65 import ActionHandler
+from lib.kodi65 import windows
 
 ch = ActionHandler()
 

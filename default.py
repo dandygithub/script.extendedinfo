@@ -5,10 +5,10 @@
 
 import sys
 
-from resources.lib import process
+from lib import process
 
-from kodi65 import addon
-from kodi65 import utils
+from lib.kodi65 import addon
+from lib.kodi65 import utils
 
 
 def pass_list_to_skin(name, data, prefix="", limit=False):
@@ -41,7 +41,7 @@ class Main:
                               limit=self.params.get("limit", 20))
         if not self.infos:
             addon.set_global("infodialogs.active", "true")
-            from resources.lib.WindowManager import wm
+            from lib.WindowManager import wm
             wm.open_video_list()
             addon.clear_global("infodialogs.active")
         addon.clear_global("extendedinfo_running")

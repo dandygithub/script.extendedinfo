@@ -6,16 +6,16 @@
 import xbmc
 import xbmcgui
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.WindowManager import wm
+from lib import TheMovieDB as tmdb
+from lib.WindowManager import wm
 
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import busy
-from kodi65 import confirmdialog
-from kodi65 import selectdialog
-from kodi65 import ActionHandler
-from kodi65 import DialogBaseList
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import busy
+from lib.kodi65 import confirmdialog
+from lib.kodi65 import selectdialog
+from lib.kodi65 import ActionHandler
+from lib.kodi65 import DialogBaseList
 
 ID_BUTTON_SORT = 5001
 ID_BUTTON_GENREFILTER = 5002

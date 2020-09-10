@@ -6,9 +6,9 @@
 import urllib.parse
 import re
 
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import ItemList
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import ItemList
 
 BASE_URL = "http://ws.audioscrobbler.com/2.0/?"
 

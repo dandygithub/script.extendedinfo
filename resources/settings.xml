@@ -18,9 +18,6 @@
 		<setting label="32162" type="bool" id="include_adults"/>
 		<setting label="32172" type="text" id="tmdb_apikey" default="34142515d9d23817496eeb4ff1d223d0"/>
 	</category>
-	<category label="TheAudioDB">
-		<setting label="32172" type="text" id="tadb_apikey" default="58353d43204d68753987fl"/>
-	</category>
 	<category label="Trakt">
 		<setting label="32172" type="text" id="trakt_apikey" default="e9a7fba3fa1b527c08c073770869c258804124c5d7c984ce77206e695fbaddd5"/>
 	</category>

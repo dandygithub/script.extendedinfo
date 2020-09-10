@@ -3,13 +3,13 @@
 # Copyright (C) 2015 - Philipp Temminghoff <phil65@kodi.tv>
 # This program is Free Software see LICENSE file for details
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.dialogs.DialogVideoInfo import DialogVideoInfo
+from lib import TheMovieDB as tmdb
+from lib.dialogs.DialogVideoInfo import DialogVideoInfo
 
-from kodi65 import imagetools
-from kodi65 import utils
-from kodi65 import addon
-from kodi65 import ActionHandler
+from lib.kodi65 import imagetools
+from lib.kodi65 import utils
+from lib.kodi65 import addon
+from lib.kodi65 import ActionHandler
 
 ch = ActionHandler()
 

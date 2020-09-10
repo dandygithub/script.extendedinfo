@@ -10,14 +10,14 @@ import xbmc
 import xbmcgui
 import xbmcvfs
 
-import resources.lib.TheMovieDB as tmdb
+import lib.TheMovieDB as tmdb
 
-from kodi65 import windows
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import busy
-from kodi65 import player
-from kodi65 import local_db
+from lib.kodi65 import windows
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import busy
+from lib.kodi65 import player
+from lib.kodi65 import local_db
 
 INFO_XML_CLASSIC = "script-%s-DialogVideoInfo.xml" % (addon.ID)
 LIST_XML_CLASSIC = "script-%s-VideoList.xml" % (addon.ID)

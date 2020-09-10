@@ -9,13 +9,13 @@ from __future__ import absolute_import
 import datetime
 import urllib.parse
 
-from resources.lib import TheMovieDB as tmdb
+from lib import TheMovieDB as tmdb
 
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import local_db
-from kodi65 import VideoItem
-from kodi65 import ItemList
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import local_db
+from lib.kodi65 import VideoItem
+from lib.kodi65 import ItemList
 
 TRAKT_KEY = addon.setting("trakt_apikey")
 BASE_URL = "https://api-v2launch.trakt.tv/"

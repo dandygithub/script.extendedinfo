@@ -5,9 +5,9 @@
 
 import urllib.parse
 
-from kodi65 import utils
-from kodi65 import ItemList
-from kodi65 import VideoItem
+from lib.kodi65 import utils
+from lib.kodi65 import ItemList
+from lib.kodi65 import VideoItem
 
 # TVRAGE_KEY = 'VBp9BuIr5iOiBeWCFRMG'
 API_KEY = 'xbmc_open_source_media_center'

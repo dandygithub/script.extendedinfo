@@ -14,19 +14,18 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from resources.lib import Trakt
-from resources.lib import LastFM
-from resources.lib import TheAudioDB as AudioDB
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.WindowManager import wm
+from lib import Trakt
+from lib import LastFM
+from lib import TheMovieDB as tmdb
+from lib.WindowManager import wm
 
-from kodi65 import youtube
-from kodi65 import local_db
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import busy
-from kodi65 import kodijson
-from kodi65 import favs
+from lib.kodi65 import youtube
+from lib.kodi65 import local_db
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import busy
+from lib.kodi65 import kodijson
+from lib.kodi65 import favs
 
 
 def start_info_actions(info, params):
@@ -41,14 +40,8 @@ def start_info_actions(info, params):
 
     # Audio
     if info == "discography":
-        discography = AudioDB.get_artist_discography(params["artistname"])
-        if not discography:
-            discography = LastFM.get_artist_albums(params.get("artist_mbid"))
+        discography = LastFM.get_artist_albums(params.get("artist_mbid"))
         return discography
-    elif info == "mostlovedtracks":
-        return AudioDB.get_most_loved_tracks(params["artistname"])
-    elif info == "trackdetails":
-        return AudioDB.get_track_details(params.get("id", ""))
     elif info == "topartists":
         return LastFM.get_top_artists()
     #  The MovieDB
@@ -382,13 +375,6 @@ def start_info_actions(info, params):
                              episode=params.get("episode"),
                              season=params.get("season"))
         addon.clear_global("infodialogs.active")
-    elif info == "albuminfo":
-        if params.get("id"):
-            album_details = AudioDB.get_album_details(params.get("id"))
-            utils.dict_to_windowprops(album_details, params.get("prefix", ""))
-    elif info == "artistdetails":
-        artist_details = AudioDB.get_artist_details(params["artistname"])
-        utils.dict_to_windowprops(artist_details, params.get("prefix", ""))
     elif info == "ratemedia":
         media_type = params.get("type")
         if not media_type:

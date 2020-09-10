@@ -4,17 +4,16 @@
 # This program is Free Software see LICENSE file for details
 
 import datetime
-
 import xbmcgui
 
-from resources.lib.WindowManager import wm
+from lib.WindowManager import wm
 
-from kodi65 import youtube
-from kodi65 import addon
-from kodi65 import windows
-from kodi65 import busy
-from kodi65 import DialogBaseList
-from kodi65 import ActionHandler
+from lib.kodi65 import youtube
+from lib.kodi65 import addon
+from lib.kodi65 import windows
+from lib.kodi65 import busy
+from lib.kodi65 import DialogBaseList
+from lib.kodi65 import ActionHandler
 
 ch = ActionHandler()
 

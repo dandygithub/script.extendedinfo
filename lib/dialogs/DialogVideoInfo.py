@@ -7,12 +7,12 @@ import xbmcgui
 import xbmc
 
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.dialogs.DialogBaseInfo import DialogBaseInfo
+from lib import TheMovieDB as tmdb
+from lib.dialogs.DialogBaseInfo import DialogBaseInfo
 
-from kodi65 import addon
-from kodi65 import utils
-from kodi65 import ActionHandler
+from lib.kodi65 import addon
+from lib.kodi65 import utils
+from lib.kodi65 import ActionHandler
 
 
 BUTTONS = {8, 9, 10, 6001, 6002, 6003, 6005, 6006}

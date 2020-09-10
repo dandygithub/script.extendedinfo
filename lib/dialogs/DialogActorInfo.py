@@ -8,12 +8,12 @@ from __future__ import unicode_literals
 
 import xbmcgui
 
-from resources.lib import TheMovieDB as tmdb
-from resources.lib.dialogs.DialogBaseInfo import DialogBaseInfo
+from lib import TheMovieDB as tmdb
+from lib.dialogs.DialogBaseInfo import DialogBaseInfo
 
-from kodi65 import imagetools
-from kodi65 import addon
-from kodi65 import ActionHandler
+from lib.kodi65 import imagetools
+from lib.kodi65 import addon
+from lib.kodi65 import ActionHandler
 
 ID_CONTROL_PLOT = 132
 
