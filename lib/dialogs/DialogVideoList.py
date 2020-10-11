@@ -82,7 +82,7 @@ def get_window(window_type):
 
         @busy.set_busy
         def __init__(self, *args, **kwargs):
-            self.type = kwargs.get('type', "movie")
+            self.type = kwargs.get("type", "")
             self.list_id = kwargs.get("list_id", False)
             self.logged_in = tmdb.Login.check_login()
             super(DialogVideoList, self).__init__(*args, **kwargs)

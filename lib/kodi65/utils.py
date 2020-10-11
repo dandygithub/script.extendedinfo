@@ -399,24 +399,6 @@ def get_file(url):
         log('failed to save image ' + url)
         return ""
 
-
-def fetch_musicbrainz_id(artist, artist_id=-1):
-    """
-    fetches MusicBrainz ID for given *artist and returns it
-    uses musicbrainz.org
-    """
-    base_url = "http://musicbrainz.org/ws/2/artist/?fmt=json"
-    url = '&query=artist:%s' % urllib.parse.quote_plus(artist)
-    results = get_JSON_response(url=base_url + url,
-                                cache_days=30,
-                                folder="MusicBrainz")
-    if results and len(results["artists"]) > 0:
-        log("found artist id for %s: %s" % (artist, results["artists"][0]["id"]))
-        return results["artists"][0]["id"]
-    else:
-        return None
-
-
 class FunctionThread(threading.Thread):
 
     def __init__(self, function=None, param=None):

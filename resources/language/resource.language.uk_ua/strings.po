@@ -700,3 +700,23 @@ msgstr "Фанарти"
 msgctxt "#32172"
 msgid "API Key"
 msgstr "API ключ"
+
+msgctxt "#32173"
+msgid "Type Search"
+msgstr "Тип пошуку"
+
+msgctxt "#32174"
+msgid "Artists"
+msgstr "Виконавці"
+
+msgctxt "#32175"
+msgid "Albums"
+msgstr "Альбоми"
+
+msgctxt "#32176"
+msgid "Songs"
+msgstr "Пісні"
+
+msgctxt "#32177"
+msgid "Info"
+msgstr "Інфо"

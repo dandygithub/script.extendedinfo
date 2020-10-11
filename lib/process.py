@@ -15,7 +15,7 @@ import xbmcgui
 import xbmcplugin
 
 from lib import Trakt
-from lib import LastFM
+from lib import MusicBrainz as mb
 from lib import TheMovieDB as tmdb
 from lib.WindowManager import wm
 
@@ -29,21 +29,35 @@ from lib.kodi65 import favs
 
 
 def start_info_actions(info, params):
-    if "artistname" in params:
-        params["artistname"] = params.get("artistname", "").split(" feat. ")[0].strip()
-        if not params.get("artist_mbid"):
-            params["artist_mbid"] = utils.fetch_musicbrainz_id(params["artistname"])
     utils.log(info)
     utils.pp(params)
     if "prefix" in params and not params["prefix"].endswith("."):
         params["prefix"] = params["prefix"] + "."
 
     # Audio
-    if info == "discography":
-        discography = LastFM.get_artist_albums(params.get("artist_mbid"))
-        return discography
-    elif info == "topartists":
-        return LastFM.get_top_artists()
+    if info == "musicbrainzbrowser":
+        if addon.get_global("infodialogs.active"):
+            return None
+        addon.set_global("infodialogs.active", "true")
+        search_str = params.get("id", "")
+        if not search_str and params.get("search"):
+            types = [addon.LANG(32174),addon.LANG(32175),addon.LANG(32176)]
+            ts = xbmcgui.Dialog().select(addon.LANG(32173),types)
+            if ts==-1:
+                addon.clear_global("infodialogs.active")
+                return None
+            result = xbmcgui.Dialog().input(heading=addon.LANG(16017),
+                                            type=xbmcgui.INPUT_ALPHANUM)
+            if result:
+                search_str = result
+            else:
+                addon.clear_global("infodialogs.active")
+                return None
+        try:
+            mb.search_MusicBrainz(ts, search_str)
+            #wm.open_video_list(search_str=search_str, mode="search")
+        finally:
+            addon.clear_global("infodialogs.active")
     #  The MovieDB
     elif info == "incinemamovies":
         return tmdb.get_movies("now_playing")
@@ -201,8 +215,8 @@ def start_info_actions(info, params):
         return Trakt.get_movies("anticipated")
     elif info == "traktboxofficemovies":
         return Trakt.get_movies("boxoffice")
-    elif info == "similarartistsinlibrary":
-        return local_db.get_similar_artists(params.get("artist_mbid"))
+    #elif info == "similarartistsinlibrary":
+    #    return local_db.get_similar_artists(params.get("artist_mbid"))
     elif info == "trackinfo":
         addon.clear_global('%sSummary' % params.get("prefix", ""))
         if params["artistname"] and params["trackname"]:
@@ -321,6 +335,16 @@ def start_info_actions(info, params):
         addon.set_global("infodialogs.active", "true")
         search_str = params.get("id", "")
         if not search_str and params.get("search"):
+            media_type = 'movie'
+            types = [addon.LANG(20338),addon.LANG(20364)]
+            ts = xbmcgui.Dialog().select(addon.LANG(32173),types)
+            if ts==-1:
+                addon.clear_global("infodialogs.active")
+                return None
+            elif ts==0:
+                media_type = 'movie'
+            elif ts==1:
+                media_type = 'tv'
             result = xbmcgui.Dialog().input(heading=addon.LANG(16017),
                                             type=xbmcgui.INPUT_ALPHANUM)
             if result:
@@ -328,9 +352,10 @@ def start_info_actions(info, params):
             else:
                 addon.clear_global("infodialogs.active")
                 return None
-        wm.open_video_list(search_str=search_str,
-                           mode="search")
-        addon.clear_global("infodialogs.active")
+        try:
+            wm.open_video_list(search_str=search_str, mode="search", media_type=media_type)
+        finally:
+            addon.clear_global("infodialogs.active")
     elif info == "extendedinfo":
         if addon.get_global("infodialogs.active"):
             return None

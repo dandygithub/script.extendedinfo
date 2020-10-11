@@ -46,8 +46,9 @@ class LocalDB(object):
         get list of artists from db which are similar to artist with *artist_id
         based on LastFM online data
         """
-        import LastFM
-        simi_artists = LastFM.get_similar_artists(artist_id)
+        return None
+        #import LastFM
+        #simi_artists = LastFM.get_similar_artists(artist_id)
         if simi_artists is None:
             utils.log('Last.fm didn\'t return proper response')
             return None

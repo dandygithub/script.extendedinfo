@@ -764,3 +764,23 @@ msgstr ""
 msgctxt "#32172"
 msgid "API Key"
 msgstr ""
+
+msgctxt "#32173"
+msgid "Type Search"
+msgstr ""
+
+msgctxt "#32174"
+msgid "Artists"
+msgstr ""
+
+msgctxt "#32175"
+msgid "Albums"
+msgstr ""
+
+msgctxt "#32176"
+msgid "Songs"
+msgstr ""
+
+msgctxt "#32177"
+msgid "Info"
+msgstr ""
