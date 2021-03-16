@@ -30,8 +30,6 @@ class VideoPlayer(xbmc.Player):
         vid = utils.get_youtube_info(youtube_id)
         if not vid:
             return None, None
-        listitem = xbmcgui.ListItem(label=vid.title,
-                                    thumbnailImage=vid.thumbnail)
         listitem = xbmcgui.ListItem(label=vid.title)
         listitem.setArt({ "thumb": vid.thumbnail })
         listitem.setInfo(type='video',
