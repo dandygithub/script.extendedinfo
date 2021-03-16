@@ -32,6 +32,8 @@ class VideoPlayer(xbmc.Player):
             return None, None
         listitem = xbmcgui.ListItem(label=vid.title,
                                     thumbnailImage=vid.thumbnail)
+        listitem = xbmcgui.ListItem(label=vid.title)
+        listitem.setArt({ "thumb": vid.thumbnail })
         listitem.setInfo(type='video',
                          infoLabels={"genre": vid.sourceName,
                                      "plot": vid.description})
